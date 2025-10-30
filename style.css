@@ -1,13 +1,22 @@
-body{
-  background-color: #ffb3b3; /* warna merah muda cerah */
-font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-color: #191978; /* Warna teks utama (Biru Gelap) */
+body {
+  background-color:#ffb3b3;
+  font-family: Arial, sans-serif;
+  color: #191970;
 }
 
 .kartu-profil {
-    width: 300px
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan*/
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px;/* Membuat sudut menjadi melengkung*/
-    box-shadow:0 4px 8px rgba(0,0,0,0,1);/* Efek bayangan */
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.kartu-profil img {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  object-fit: cover;
+}
